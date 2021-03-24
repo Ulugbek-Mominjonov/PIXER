@@ -40,3 +40,37 @@ body{
   line-height: 24px;
   color: #000000;
 }
+.container{
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.site-nav-list{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.nav-item + .nav-item{
+  margin-left: 32px;
+}
+.nav-link{
+  font-size: 15px;
+  text-decoration: none;
+}
+.nav-link-number{
+  padding: 8px 16px;
+  background: #00BAFC;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
