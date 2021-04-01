@@ -122,9 +122,14 @@ img{
   background: #00BAFC;
   text-decoration: none;
 }
-
+.introduction-video-link{
+  text-decoration: none;
+}
 /* MAIN */
 /* SERVICES */
+.services{
+  margin-bottom: 50px;
+}
 .services-header{
   width: 719px;
   margin: 0 auto;
@@ -179,4 +184,22 @@ img{
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+}
+.services-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-button{
+  margin-right: 16px;
+  padding: 10px 16px;
+  background: #00BAFC;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+}
+.footer-link{
+  color: #00BAFC;
 }
