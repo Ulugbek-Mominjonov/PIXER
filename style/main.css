@@ -302,3 +302,64 @@ img{
 .book-book-button{
   align-self: center;
 }
+
+/* SITE FOOTER */
+.site-footer{
+  background-color: #191919;
+}
+.site-footer-container{
+  display: flex;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.footer-title{
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+.copyright-info{
+  margin: 0;
+}
+.copyright{
+  width: 320px;
+  margin-right: 100px;
+  color: #FFFFFF;
+}
+.pages{
+  margin-right: 100px;
+}
+.footer-list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.footer-item + .footer-item{
+  margin-top: 8px;
+}
+.footer-link{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.internet-link{
+  display: flex;
+}
+.internet-link::before{
+  margin-right: 8px;
+  content: "";
+  width: 22px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.telegram::before{
+  background-image: url("../img/tg.png");
+}
+.facebook::before{
+  background-image: url("../img/fc.png");
+}
+.instagram::before{
+  background-image: url("../img/ins.png");
+}
