@@ -52,6 +52,18 @@ img{
   margin-right: auto;
   margin-left: auto;
 }
+.section-header{
+  width: 719px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-title{
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 130%;
+}
 .site-header{
   margin-bottom: 56px;
 }
@@ -127,20 +139,8 @@ img{
 }
 /* MAIN */
 /* SERVICES */
-.section-title{
-  padding: 0;
-  margin: 0;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 130%;
-}
 .services{
   margin-bottom: 112px;
-}
-.services-header{
-  width: 719px;
-  margin: 0 auto;
-  text-align: center;
 }
 .services-info-list{
   display: flex;
@@ -209,10 +209,7 @@ img{
   padding-bottom: 56px;
 }
 .working-feature-header{
-  width: 719px;
-  margin: 0 auto;
   margin-bottom: 30px;
-  text-align: center;
 }
 .feature-list{
   padding: 0;
@@ -256,4 +253,52 @@ img{
 }
 .feature-footer{
   text-align: center;
+}
+
+/* BOOK SECTION */
+.book-section{
+  background: #00BAFC;
+}
+.book-container{
+  padding-top: 56px;
+  padding-bottom: 64px;
+}
+.book-header{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.book-title{
+  margin: 0;
+}
+.book-info{
+  margin-bottom: 24px;
+}
+.book-form{
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  padding: 24px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.input{
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px;
+  border: none;
+  background: #F3F3F3;
+  border-radius: 5px;
+}
+::placeholder{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+.book-book-button{
+  align-self: center;
 }
