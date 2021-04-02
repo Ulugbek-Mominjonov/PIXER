@@ -67,7 +67,7 @@
     <!-- SERVICES -->
     <section class="services">
       <div class="container">
-        <header class="services-header">
+        <header class="services-header section-header">
           <h2 class="services-header-title section-title">Xizmatlar</h2>
           <p class="services-header-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
         </header>
@@ -126,7 +126,7 @@
     <!-- WORKING FEATURE -->
     <section class="working-feature">
       <div class="container">
-        <header class="working-feature-header">
+        <header class="working-feature-header section-header">
           <h2 class="feature-header-title section-title">Biz qanday ishlaymiz?</h2>
           <p class="feature-header-text">
             Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
@@ -190,7 +190,33 @@
         </footer>
       </div>
     </section>
+    
+    <!-- BOOK SECTION -->
+    <section class="book-section">
+      <div class="container book-container">
+        <div class="book-header section-header">
+          <h2 class="book-title section-title">Buyurtma berish</h2>
+          <p class="book-info">
+            Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
+          </p>
+        </div>
 
+        <form class="book-form" action="#" method="POST">
+          <input class="input" type="text" name="ism" placeholder="Ismingiz">
+          <input class="input" type="text" name="phone" placeholder="Telefon raqamingiz">
+          <select class="input" name="serves">
+            <optgroup label="Xizmat turi">
+              <option value="1">Xizmat turi</option>
+              <option value="1">Qo'llab quvatlash</option>
+              <option value="2">Loyiha</option>
+            </optgroup>
+          </select>
+          <button type="submit" class="book-button book-book-button">
+            Buyurtma berish
+          </button>
+        </form>
+      </div>
+    </section>
   </main>
 </body>
 </html>
