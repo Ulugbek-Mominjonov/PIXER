@@ -200,7 +200,8 @@ img{
   font-weight: bold;
   cursor: pointer;
 }
-.footer-link{
+.services-footer .service-link{
+  font-weight: normal;
   color: #00BAFC;
 }
 
