@@ -67,6 +67,9 @@ img{
 .site-header{
   margin-bottom: 56px;
 }
+.site-nav{
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
 .header-container{
   display: flex;
   justify-content: space-between;
@@ -74,7 +77,6 @@ img{
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
 .site-nav-list{
   display: flex;
