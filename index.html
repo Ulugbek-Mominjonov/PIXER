@@ -13,16 +13,23 @@
   <header class="site-header">
     <nav class="site-nav">
       <div class="container header-container">
-        <div class="nav-brand">
-          <a href="#"><img src="img/pixer-logo.svg" alt="logo" width="59" height="20"></a>
+        <div class="logo">
+          <a class="logo-img" href="#"><img src="img/pixer-logo.svg" alt="logo" width="59" height="20"></a>
         </div>
-        <ul class="site-nav-list">
+        <ul class="site-nav-list list">
           <li class="nav-item">
-            <a  class="nav-link footer-link" href="#">Bosh sahifa</a>
+            <a  class="nav-link" href="#">Bosh sahifa</a>
           </li>
 
-          <li class="nav-item">
+          <li class="nav-item xizmatlar">
             <a  class="nav-link" href="#">Xizmatlar</a>
+            <div class="dropdown">
+              <a href="#" class="dropdown-link">Vebsayt</a>
+              <a href="#" class="dropdown-link">Telegram bot</a>
+              <a href="#" class="dropdown-link">SMM</a>
+              <a href="#" class="dropdown-link">Grafik dizayn</a>
+              <a href="#" class="dropdown-link">CRM tizim</a>
+            </div>
           </li>
 
           <li class="nav-item">
@@ -42,7 +49,7 @@
           </li>
 
           <li class="nav-item">
-            <a  class="nav-link nav-link-number" href="#">+998 91 656 71 99</a>
+            <a  class="nav-link-number" href="#">+998 91 656 71 99</a>
           </li>
         </ul>
       </div>
@@ -50,7 +57,7 @@
     <section class="introduction">
       <div class="container introduction-container">
         <div class="introduction-info">
-          <h2 class="info-heading">Biznesingizni keyingi bosqichga olib chiqing</h2>
+          <h1 class="info-heading">Biznesingizni keyingi bosqichga olib chiqing</h1>
           <p class="info-text">
             Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
           </p>
@@ -78,7 +85,7 @@
             <li class="services-item">
               <a class="services-link" href="#">
                 <h3 class="services-info-title">Vebsayt tuzish</h3>
-                <img class="services-img" src="img/website-illustration@2x.png" alt="" width="203" height="auto">
+                <img class="services-img" src="img/website-illustration@2x.png" alt="web sayt image" width="203" height="130">
                 <p class="services-info-text">lorem ipsum</p>
               </a>
             </li>
@@ -86,7 +93,7 @@
             <li class="services-item">
               <a class="services-link" href="#">
                 <h3 class="services-info-title">Telegram bot</h3>
-                <img class="services-img" src="img/bot-illustration@2x.png" alt="" width="223" height="auto">
+                <img class="services-img" src="img/bot-illustration@2x.png" alt=" bot image" width="223" height="130">
                 <p class="services-info-text">lorem ipsum</p>
               </a>
             </li>
@@ -94,7 +101,7 @@
             <li class="services-item">
               <a class="services-link" href="#">
                 <h3 class="services-info-title">SMM</h3>
-                <img class="services-img" src="img/smm-illustration@2x.png" alt="" width="178" height="auto">
+                <img class="services-img" src="img/smm-illustration@2x.png" alt="smm image" width="178" height="130">
                 <p class="services-info-text">lorem ipsum</p>
               </a>
             </li>
@@ -102,7 +109,7 @@
             <li class="services-item">
               <a class="services-link" href="#">
                 <h3 class="services-info-title">Grafik dizayn</h3>
-                <img class="services-img" src="img/design-illustration@2x.png" alt="" width="179" height="auto">
+                <img class="services-img" src="img/design-illustration@2x.png" alt="dizayn image" width="179" height="130">
                 <p class="services-info-text">lorem ipsum</p>
               </a>
             </li>
@@ -110,7 +117,7 @@
             <li class="services-item">
               <a class="services-link" href="#">
                 <h3 class="services-info-title">CRM tizimlar</h3>
-                <img class="services-img" src="img/crm-illustration@2x.png" alt="" width="170" height="auto">
+                <img class="services-img" src="img/crm-illustration@2x.png" alt="crm tizim image" width="170" height="130">
                 <p class="services-info-text">lorem ipsum</p>
               </a>
             </li>
@@ -203,8 +210,8 @@
         </div>
 
         <form class="book-form" action="#" method="POST">
-          <input class="input" type="text" name="ism" placeholder="Ismingiz">
-          <input class="input" type="text" name="phone" placeholder="Telefon raqamingiz">
+          <input class="input" type="text" name="ism" placeholder="Ismingiz" required>
+          <input class="input" type="tel" name="phone" placeholder="Telefon raqamingiz" required>
           <select class="input" name="serves">
             <optgroup label="Xizmat turi">
               <option value="1">Xizmat turi</option>
@@ -224,16 +231,16 @@
   <footer class="site-footer">
     <div class="container site-footer-container">
       <div class="copyright">
-        <h4 class="footer-title copyright-title">
+        <h2 class="footer-title copyright-title">
           Copyright 2020
-        </h4>
+        </h2>
         <p class="copyright-info">
           Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.
         </p>
       </div>
 
       <div class="pages">
-        <h4 class="footer-title">Sayt sahifalari</h4>
+        <h2 class="footer-title">Sayt sahifalari</h2>
         <ul class="pages-list footer-list">
           <li class="pages-item footer-item">
             <a href="#" class="page-link footer-link">Bosh sahifa</a>
@@ -262,7 +269,7 @@
       </div>
 
       <div class="internet">
-        <h4 class="footer-title">Biz internetda</h4>
+        <h2 class="footer-title">Biz internetda</h2>
         <ul class="footer-list">
           <li class="footer-item">
             <a href="#" class="footer-link internet-link telegram">

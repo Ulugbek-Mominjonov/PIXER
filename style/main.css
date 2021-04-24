@@ -52,6 +52,13 @@ img{
   margin-right: auto;
   margin-left: auto;
 }
+.list{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 .section-header{
   width: 719px;
   margin: 0 auto;
@@ -75,29 +82,80 @@ img{
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
-.site-nav-list{
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
+.logo:hover{
+  opacity: 0.8;
 }
-.nav-item + .nav-item{
-  margin-left: 32px;
+.logo:active{
+  opacity: 0.4;
 }
 .nav-link{
+  display: block;
+  padding: 16px;
   font-size: 15px;
   text-decoration: none;
   color: #000000;
+  transition: 0.3s;
+}
+.nav-link:hover{
+  box-shadow: inset 0 -3px 0 0 #222;
+}
+.nav-link:active{
+  background: rgba(25, 25, 25, 0.7);
+  color: #FFFFFF;
+  box-shadow: none;
+}
+.xizmatlar{
+  position: relative;
+}
+.xizmatlar:hover .dropdown{
+  display: block;
+}
+.dropdown{
+  display: none;
+  position: absolute;
+  left: 50%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transform: translateX(-50%);
+
+}
+.dropdown-link{
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000000;
+  white-space: nowrap;
+}
+.dropdown-link:hover{
+  background-color: #00BAFC;
+  color: #fff;
+}
+.dropdown-link:active{
+  background-color: rgba(0, 186, 252, 0.6);
+  color: #fff;
 }
 .nav-link-number{
-  padding: 8px 16px;
+  padding: 5px 16px;
+  border: 3px solid transparent;
   font-weight: bold;
   background: #00BAFC;
   border-radius: 5px;
   color: #FFFFFF;
+  text-decoration: none;
+}
+.nav-link-number:hover{
+  background-color: #fff;
+  border-color: #00BAFC;
+  color: #00BAFC;
+}
+.nav-link-number:active{
+  background-color: rgba(0, 186, 252, 0.6);
+  border-color: transparent;
+  color: #fff;
 }
 
 /* Introduvtion-section */
@@ -136,6 +194,13 @@ img{
   background: #00BAFC;
   text-decoration: none;
 }
+.info-link:hover{
+  background-color: rgba(0, 186, 252, 0.8);
+}
+.info-link:hover{
+  background-color: rgba(0, 186, 252, 0.6);
+}
+
 .introduction-video-link{
   text-decoration: none;
 }
@@ -158,6 +223,9 @@ img{
   padding: 24px;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+}
+.services-item:hover{
+  box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
 }
 .services-item:not(:nth-child(3n)){
   margin-right: 70px;
@@ -365,4 +433,13 @@ img{
 }
 .instagram::before{
   background-image: url("../img/ins.png");
+}
+.footer-link:hover{
+  color: #00BAFC;
+}
+.page-link:active{
+  color: rgba(0, 186, 252, 0.6);
+}
+.internet-link:active{
+  opacity: 0.6;
 }
