@@ -54,6 +54,11 @@
         </ul>
       </div>
     </nav>
+  </header>
+
+  <!-- site-main-section -->
+  <main>
+    <!-- introduction -->
     <section class="introduction">
       <div class="container introduction-container">
         <div class="introduction-info">
@@ -63,15 +68,10 @@
           </p>
           <a class="info-link" href="#">Xizmatlar bilan tanishish</a>
         </div>
-        <a class="introduction-video-link" href="#">
-          <img class="introduction-video" src="img/youtube-embed.png" alt="youtube" width="458" height="258">
-        </a>
+        <iframe class="introduction-video-link" width="458" height="258" src="https://www.youtube-nocookie.com/embed/6_pru8U2RmM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </section>
-  </header>
 
-  <!-- site-main-section -->
-  <main>
     <!-- SERVICES -->
     <section class="services">
       <div class="container">
@@ -83,41 +83,36 @@
         <section class="services-info">
           <ul class="services-info-list">
             <li class="services-item">
-              <a class="services-link" href="#">
+              <a class="services-link websayt" href="#">
                 <h3 class="services-info-title">Vebsayt tuzish</h3>
-                <img class="services-img" src="img/website-illustration@2x.png" alt="web sayt image" width="203" height="130">
                 <p class="services-info-text">lorem ipsum</p>
               </a>
             </li>
 
             <li class="services-item">
-              <a class="services-link" href="#">
+              <a class="services-link telegrammbot" href="#">
                 <h3 class="services-info-title">Telegram bot</h3>
-                <img class="services-img" src="img/bot-illustration@2x.png" alt=" bot image" width="223" height="130">
                 <p class="services-info-text">lorem ipsum</p>
               </a>
             </li>
 
             <li class="services-item">
-              <a class="services-link" href="#">
+              <a class="services-link SMM" href="#">
                 <h3 class="services-info-title">SMM</h3>
-                <img class="services-img" src="img/smm-illustration@2x.png" alt="smm image" width="178" height="130">
                 <p class="services-info-text">lorem ipsum</p>
               </a>
             </li>
 
             <li class="services-item">
-              <a class="services-link" href="#">
+              <a class="services-link gdizayn" href="#">
                 <h3 class="services-info-title">Grafik dizayn</h3>
-                <img class="services-img" src="img/design-illustration@2x.png" alt="dizayn image" width="179" height="130">
                 <p class="services-info-text">lorem ipsum</p>
               </a>
             </li>
 
             <li class="services-item">
-              <a class="services-link" href="#">
+              <a class="services-link crm" href="#">
                 <h3 class="services-info-title">CRM tizimlar</h3>
-                <img class="services-img" src="img/crm-illustration@2x.png" alt="crm tizim image" width="170" height="130">
                 <p class="services-info-text">lorem ipsum</p>
               </a>
             </li>
@@ -143,8 +138,7 @@
         
         <ul class="feature-list">
           <li class="feature-item">
-            <a class="feature-link" href="#">
-              <img class="feature-img" src="img/talab.png" alt="talablar img" width="300" height="278">
+            <a class="feature-link talabimg" href="#">
               <div class="feature-info">
                 <h3 class="info-title">Talablarni aniqlab chiqamiz</h3>
                 <p class="info-data">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
@@ -153,8 +147,7 @@
           </li>
 
           <li class="feature-item">
-            <a class="feature-link" href="#">
-              <img class="feature-img" src="img/yechim.png" alt="talablar img" width="300" height="278">
+            <a class="feature-link yechimimg" href="#">
               <div class="feature-info">
                 <h3 class="info-title">Bir necha yechimlarni taklif qilamiz</h3>
                 <p class="info-data">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
@@ -163,8 +156,7 @@
           </li>
 
           <li class="feature-item">
-            <a class="feature-link" href="#">
-              <img class="feature-img" src="img/loyiha.png" alt="talablar img" width="300" height="225">
+            <a class="feature-link loyihaimg" href="#">
               <div class="feature-info">
                 <h3 class="info-title">Loyiha uchun vaqt belgilaymiz</h3>
                 <p class="info-data">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
@@ -173,8 +165,7 @@
           </li>
           
           <li class="feature-item">
-            <a class="feature-link" href="#">
-              <img class="feature-img" src="img/sifat.png" alt="talablar img" width="300" height="278">
+            <a class="feature-link sifatimg" href="#">
               <div class="feature-info">
                 <h3 class="info-title">A’lo sifat bilan bajarib topshiramiz</h3>
                 <p class="info-data">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
@@ -183,8 +174,7 @@
           </li>
 
           <li class="feature-item">
-            <a class="feature-link" href="#">
-              <img class="feature-img" src="img/qollab-quvvatlash.png" alt="talablar img" width="300" height="278">
+            <a class="feature-link qollabimg" href="#">
               <div class="feature-info">
                 <h3 class="info-title">Qo’llab-quvvatlab boramiz</h3>
                 <p class="info-data">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
@@ -230,16 +220,16 @@
   <!-- site footer -->
   <footer class="site-footer">
     <div class="container site-footer-container">
-      <div class="copyright">
+      <section class="copyright">
         <h2 class="footer-title copyright-title">
           Copyright 2020
         </h2>
         <p class="copyright-info">
           Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.
         </p>
-      </div>
+      </section>
 
-      <div class="pages">
+      <section class="pages">
         <h2 class="footer-title">Sayt sahifalari</h2>
         <ul class="pages-list footer-list">
           <li class="pages-item footer-item">
@@ -266,9 +256,9 @@
             <a href="#" class="page-link footer-link">Kontaktlar</a>
           </li>
         </ul>
-      </div>
+      </section>
 
-      <div class="internet">
+      <section class="internet">
         <h2 class="footer-title">Biz internetda</h2>
         <ul class="footer-list">
           <li class="footer-item">
@@ -287,7 +277,7 @@
             </a>
           </li>
         </ul>
-      </div>
+      </section>
     </div>
   </footer>
 </body>
